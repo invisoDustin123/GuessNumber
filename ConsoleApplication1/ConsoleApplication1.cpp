@@ -13,8 +13,8 @@ int main(){
 	//random number generator
 	srand(static_cast<unsigned int>(time(0)));
 
-	//pick a rn between 1 and 100
-	int secretNumber = rand() % 100 + 1;
+	//pick a rn between 1 and 64
+	int secretNumber = rand() % 64 + 1;
 
 	//declare variables
 	int tries = 0;
